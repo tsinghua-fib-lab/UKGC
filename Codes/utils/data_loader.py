@@ -9,7 +9,7 @@ from time import time
 from collections import defaultdict
 import warnings
 warnings.filterwarnings('ignore')
-
+#
 n_users = 0
 n_pois = 0
 n_geo_entities = 0

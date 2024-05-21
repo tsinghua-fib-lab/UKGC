@@ -1,7 +1,7 @@
 import numpy as np
 from sklearn.metrics import roc_auc_score, log_loss
 
-
+#
 def recall(rank, ground_truth, N):
     return len(set(rank[:N]) & set(ground_truth)) / float(len(set(ground_truth)))
 

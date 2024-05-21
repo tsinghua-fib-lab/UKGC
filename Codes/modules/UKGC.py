@@ -5,7 +5,7 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 from torch_scatter import scatter_mean, scatter_max
-
+#
 class Aggregator(nn.Module):
     def __init__(self, n_users, n_factors, agg_mode):
         super(Aggregator, self).__init__()

@@ -13,7 +13,7 @@ from utils.data_loader import load_data
 from modules.UKGC import Recommender
 from utils.evaluate import test
 from utils.helper import early_stopping
-
+#
 n_users = 0
 n_pois = 0
 n_geo_entities = 0
